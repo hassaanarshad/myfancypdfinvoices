@@ -1,0 +1,9 @@
+com/hassaan/myfancypdfinvoices/model/Invoice.class
+com/hassaan/myfancypdfinvoices/ApplicationLauncher.class
+com/hassaan/myfancypdfinvoices/model/User.class
+com/hassaan/myfancypdfinvoices/context/MyFancyPdfInvoicesApplicationConfiguration.class
+com/hassaan/myfancypdfinvoices/web/MyFancyPdfInvoicesServlet.class
+com/hassaan/myfancypdfinvoices/service/UserService.class
+com/hassaan/myfancypdfinvoices/service/InvoiceService.class
+com/hassaan/myfancypdfinvoices/web/MyFirstSpringController.class
+com/hassaan/myfancypdfinvoices/service/DummyInvoiceServiceLoader.class
