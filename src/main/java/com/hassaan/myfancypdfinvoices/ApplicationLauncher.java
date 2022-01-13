@@ -2,7 +2,7 @@ package com.hassaan.myfancypdfinvoices;
 
 import javax.servlet.ServletContext;
 
-import com.hassaan.myfancypdfinvoices.context.MyFancyPdfInvoicesApplicationConfiguration;
+import com.hassaan.myfancypdfinvoices.context.ApplicationConfiguration;
 
 import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;
@@ -32,7 +32,7 @@ public class ApplicationLauncher {
 
     public static WebApplicationContext createApplicationContext(ServletContext servletContext) {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(MyFancyPdfInvoicesApplicationConfiguration.class);
+        ctx.register(ApplicationConfiguration.class);
         ctx.setServletContext(servletContext);
         ctx.refresh();
         ctx.registerShutdownHook();
