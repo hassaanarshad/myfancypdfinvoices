@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Validated
-public class MyFancyPdfInvoicesController {
+public class InvoicesController {
 
     private final InvoiceService invoiceService;
 
-    public MyFancyPdfInvoicesController(InvoiceService invoiceService) {
+    public InvoicesController(InvoiceService invoiceService) {
         this.invoiceService = invoiceService;
     }
     
